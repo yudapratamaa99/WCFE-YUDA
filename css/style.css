@@ -1,0 +1,38 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    color: blue;
+    font-size: 24px;
+}
+
+.section-grid{
+    background-color: #121212; 
+    color: #fff;
+    text-align: center;
+    width: 50vw;
+    height: 100vh;
+    margin: 50px auto;
+    border: 10px solid red;
+    padding: 20px;
+}
+
+#second-section{
+    background-color: red;
+}
+
+@media only screen and (max-width:600px){
+    #second-section{
+        width: 100vw;
+    }
+    
+}
+
+@media only screen and (min-width:601px){
+    #first-section{
+        width: 100vw;
+    }
+    
+}
